@@ -5,6 +5,7 @@
     --fourth-color: #ada0a0;
     --fifth-color: #5b4e4e;
     --sixth-color: #adf7b6;
+    --seventh-color: #4ab395;
 }
 
 * {
@@ -105,3 +106,21 @@ color: var(--sixth-color);
 
 /* Hero end */
 
+/* Section-title starts */
+
+.section-title {
+    font-size: 30px;
+    border-bottom: 3px solid;
+    color: var(--second-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.the-border {
+    border-color: var(--fifth-color);
+}
+
+/* Section-title end*/
