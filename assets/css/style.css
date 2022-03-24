@@ -4,4 +4,104 @@
     --third-color: #ff8193;
     --fourth-color: #ada0a0;
     --fifth-color: #5b4e4e;
+    --sixth-color: #adf7b6;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fourth-color);
+    font-family: American Typewriter, serif;
+}
+
+/* Header and Nav bar starts */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    color: var(--third-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.56vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    color: var(--second-color);
+    text-shadow: none;
+}
+
+/* Header and nav bar end */
+
+/* Footer start */
+
+footer {
+    background-color: var(--first-color);
+    padding: 40px 34px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    color: var(--third-color);
+    font-size: 26px;
+}
+
+/* Footer end */
+
+/* Hero starts */
+
+.hero {
+    background-image: url('../images/portfolio-hero.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-comment {
+color: var(--sixth-color);
+}
+
+/* Hero end */
+
