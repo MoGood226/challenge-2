@@ -101,7 +101,9 @@ footer h2 {
 }
 
 .hero-comment {
-color: var(--sixth-color);
+    font-size: 35px;
+    color: var(--sixth-color);
+    text-shadow: 0 0 10px rgba(74, 179, 149, 0.5);
 }
 
 /* Hero end */
@@ -133,7 +135,7 @@ color: var(--sixth-color);
 }
 
 .bio p {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     color: var(--fifth-color);
     line-height: 1.7;
@@ -166,3 +168,5 @@ color: var(--sixth-color);
 .contact address a:hover {
     color: var(--seventh-color);
 }
+
+/* Contact me "contact" end */
