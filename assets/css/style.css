@@ -170,3 +170,50 @@ footer h2 {
 }
 
 /* Contact me "contact" end */
+
+/* Media queriesfor smaller desktops screens and smaller */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-comment {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bio p {
+        font-size: 23px;
+    }
+}
+
+/* Media Query for tablets and smaller */
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* Media Query for mobile phones and smaller */
+
+@media screen and (max-width: 575px) {
+    .bio p {
+        font-size: 20px;
+    }
+}
