@@ -156,6 +156,49 @@ footer h2 {
 
 /* My work "work" start */
 
+.work {
+    padding: 50px;
+}
+
+.center-run {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center-run h3 {
+    margin-top: 150px;
+    margin-bottom: auto;
+    color: var(--second-color);
+    text-shadow: 0 0 10px rgba(92, 0, 0, 0.7);
+}
+
+.first-work {
+    border-radius: 15px;
+    width: 75%;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child h3 {
+    margin: -30px;
+    color: var(--second-color);
+    text-shadow: 0 0 10px rgba(92, 0, 0, 0.7);
+}
+
+.other-work {
+    border-radius: 15px;
+    width: 70%;
+}
+
 /* my work "work" end */
 
 /* Contact me "contact" start */
@@ -212,6 +255,10 @@ footer h2 {
     .bio p {
         font-size: 23px;
     }
+
+    .first-work {
+        width: 50%;
+    }
 }
 
 /* Media Query for tablets and smaller */
@@ -221,8 +268,16 @@ footer h2 {
         font-size: 30px;
     }
 
-}
+    .other-work {
+        width: 70%;
+        box-sizing: border-box;
+    }
 
+    .flex-row {
+        flex-direction: column;
+    }
+
+}
 /* Media Query for mobile phones and smaller */
 
 @media screen and (max-width: 575px) {
