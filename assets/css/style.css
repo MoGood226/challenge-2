@@ -259,6 +259,7 @@ footer h2 {
     .first-work {
         width: 50%;
     }
+
 }
 
 /* Media Query for tablets and smaller */
@@ -266,6 +267,14 @@ footer h2 {
 @media screen and (max-width: 768px) {
     .hero-comment {
         font-size: 30px;
+    }
+
+    .center-run {
+        flex-wrap: nowrap;
+    }
+
+    .first-work {
+        width: 70%;
     }
 
     .other-work {
@@ -277,12 +286,20 @@ footer h2 {
         flex-direction: column;
     }
 
+    .flex-child h3 {
+        margin: 15px;
+    }
+
 }
 /* Media Query for mobile phones and smaller */
 
 @media screen and (max-width: 575px) {
 
     .bio p {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
+
+    .center-run h3 {
+        width: 15px;
+    }
 }
